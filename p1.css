@@ -1,0 +1,39 @@
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 123, 190);;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a:hover {
+    background-color: rgb(119, 123, 190);
+    color: rgb(190, 119, 160)
+  }
+  a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(119, 123, 190);
+  }
+  .active {
+    background-color: rgb(119, 123, 190);
+  }
+  body {
+    background-color: rgb(242, 232, 252);
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #birdSelector {
+      float: top;
+      margin: 20px;
+  }

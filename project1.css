@@ -1,0 +1,127 @@
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  font-style: bold;}
+
+  .img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+img {
+  width: 100%;
+}
+ 
+  figure {
+    width: 33%;
+    float: right;
+    font-style: italic;
+  }
+  #birdInfo {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 123, 190);;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a:hover {
+    background-color: rgb(119, 123, 190);
+    color: rgb(190, 119, 160)
+  }
+  .alink {
+    display: block;
+    padding: 8px;
+    background-color: rgb(119, 123, 190);
+  }
+  .active {
+    background-color: rgb(186, 187, 204);
+  }
+  body {
+    background-color: rgb(242, 232, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #birdSelector {
+      float: top;
+      margin: 20px;
+  }
+  body {
+    background-image: url(bg2.jpg);
+  }
+  #flamingo {
+    float: right;
+    width: 33%;
+  }
+
+  
